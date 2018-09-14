@@ -1,0 +1,33 @@
+.describe {
+    font:  300 20px "worksans","Open Sans","Arial",sans-serif;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-transform: none;
+    margin-bottom: 0;
+}
+.name {
+    font: 700 15px "worksansbold","Open Sans","Arial",sans-serif;
+    letter-spacing: 2px;
+    line-height: 2em;
+
+    border-left: 5px solid rgb(0, 240, 220);
+
+    padding-left: 8px;
+}
+
+.jumbotron{
+    background-color: white;
+    margin-bottom: 0;
+    /*margin-top:30px;*/
+}
+@font-face {
+    font-family: worksans;
+    src: url(../fonts/worksans.woff2);
+
+}
+
+@font-face {
+    font-family: worksansbold;
+    src: url(../fonts/worksansbold.woff2);
+
+}

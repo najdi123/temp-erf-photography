@@ -1,0 +1,36 @@
+.services{
+    background-color: darkblue;
+    color: white;
+}
+.blue-jumbo{
+
+    text-decoration: none;
+}
+.brand-describe{
+    font-size: 21px;
+
+}
+.brand-design{
+    text-align: right;
+}
+.portfolio-link {
+    color: rgb(0, 240, 220);
+    text-decoration: none;
+    font-size:22px;
+    padding-right: 0;
+
+}
+.blue-jumbo{
+    background-color: darkblue;
+    color: white;
+
+}
+.blue-describe{
+
+    font:  300 30px "worksans","Open Sans","Arial",sans-serif;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-transform: none;
+    margin-bottom: 4rem;
+
+}

@@ -1,0 +1,19 @@
+
+.describe-brands{
+    font:  300 22px "worksans","Open Sans","Arial",sans-serif;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-transform: none;
+    padding: 1rem 0 1rem 0;
+}
+.brand-logo{
+
+    /*padding: 0.5rem 0.5rem 0.5rem 0.5rem;*/
+    padding: 0.65rem;
+
+}
+.brand-logo:hover{
+    transition-timing-function: ease;
+    transition: 0.7s;
+    transform: scale(1.078);
+}
