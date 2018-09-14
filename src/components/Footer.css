@@ -1,11 +1,13 @@
-.page-footer {
+.footer {
     position: static;
-    /* bottom: 0; */
-    padding: 20px;
+    bottom: 0;
     width: 100%;
-    /* height: 60px;
-    line-height: 60px; */
+    height: 50px;
+    line-height: 60px;
     background-color: #333;
     display: block;
-    color: rgb(0, 240, 220);
+
+}
+.footer-padding{
+    padding: 0;
 }
