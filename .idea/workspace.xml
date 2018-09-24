@@ -2,222 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffd93a9d-9ee6-41de-9cb6-091749bd8226" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/LocationPhotography.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/pngPhotography.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Gallery.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (10).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (11).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (12).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (13).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (14).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (15).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (16).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (17).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (18).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (19).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (20).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (21).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (22).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (23).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (5).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (6).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (7).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (8).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Children/pic (9).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (10).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (11).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (12).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (13).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (14).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (15).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (16).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (17).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (18).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (19).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (20).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (21).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (22).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (23).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (24).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (25).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (26).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (27).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (28).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (29).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (30).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (31).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (32).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (33).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (34).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (35).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (36).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (37).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (38).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (39).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (40).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (41).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (42).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (43).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (44).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (45).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (46).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (47).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (48).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (49).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (5).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (50).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (51).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (52).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (53).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (54).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (55).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (56).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (57).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (58).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (59).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (6).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (60).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (61).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (62).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (63).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (64).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (65).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (66).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (67).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (68).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (69).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (7).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (70).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (71).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (72).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (8).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Clothing/pic (9).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (10).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (11).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (12).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (13).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (14).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (15).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (16).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (17).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (18).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (19).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (20).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (21).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (22).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (23).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (24).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (25).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (26).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (27).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (28).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (29).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (30).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (31).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (32).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (33).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (34).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (35).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (36).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (37).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (5).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (6).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (7).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (8).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Food/pic (9).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (10).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (11).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (12).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (13).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (14).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (15).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (16).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (17).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (18).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (19).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (20).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (21).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (22).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (23).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (24).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (25).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (26).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (27).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (28).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (29).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (30).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (31).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (32).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (33).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (34).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (35).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (36).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (37).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (38).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (39).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (40).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (41).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (42).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (43).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (44).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (45).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (46).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (47).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (48).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (49).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (5).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (50).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (51).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (52).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (53).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (6).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (7).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (8).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/Industrial/pic (9).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/011.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/013.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/015.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/016.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/017.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/018.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/019.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/PhotographyImages/car/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CarPhotography.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CarPhotography.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ChildrenPhotography.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ChildrenPhotography.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ClothingPhotography.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ClothingPhotography.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FoodPhotography.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FoodPhotography.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/IndustrialPhotography.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/IndustrialPhotography.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Jumbotron.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Jumbotron.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -284,7 +71,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
+          <entry key="css" value="4" />
           <entry key="js" value="1" />
           <entry key="jsx" value="11" />
           <entry key="yml" value="1" />
@@ -292,7 +79,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
+          <entry key="CSS" value="4" />
           <entry key="JSX Harmony" value="11" />
           <entry key="JavaScript" value="1" />
           <entry key="YAML" value="1" />
@@ -300,16 +87,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="5" />
+          <entry key="css" value="50" />
           <entry key="js" value="61" />
-          <entry key="jsx" value="697" />
+          <entry key="jsx" value="716" />
           <entry key="yml" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="JSX Harmony" value="697" />
+          <entry key="CSS" value="50" />
+          <entry key="JSX Harmony" value="716" />
           <entry key="JavaScript" value="61" />
           <entry key="YAML" value="29" />
         </counts>
@@ -318,15 +105,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Footer.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -339,11 +117,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Gallery.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+            <state relative-caret-position="2839">
+              <caret line="175" column="30" lean-forward="true" selection-start-line="175" selection-start-column="30" selection-end-line="175" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Gallery.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -351,8 +141,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/LocationPhotography.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+            <state relative-caret-position="544">
+              <caret line="50" column="130" lean-forward="true" selection-start-line="50" selection-start-column="130" selection-end-line="50" selection-end-column="130" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -361,7 +154,7 @@
         <entry file="file://$PROJECT_DIR$/src/pages/pngPhotography.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="54" selection-end-line="84" selection-end-column="28" />
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -390,16 +183,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/ChildrenPhotography.jsx">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Jumbotron.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="82" column="132" selection-start-line="82" selection-start-column="132" selection-end-line="82" selection-end-column="132" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-                <element signature="e#868#938#0" expanded="true" />
-                <element signature="e#1510#1580#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -436,9 +224,9 @@
       <find>pic-</find>
       <find>pic</find>
       <find>car</find>
-      <find>p7</find>
       <find>pngPhotos</find>
       <find>Location/</find>
+      <find>p7</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -465,7 +253,6 @@
         <option value="$PROJECT_DIR$/src/components/News.jsx" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/pages/Home.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Jumbotron.css" />
         <option value="$PROJECT_DIR$/.cpanel.yml" />
         <option value="$PROJECT_DIR$/src/components/Footer.jsx" />
         <option value="$PROJECT_DIR$/src/components/Footer.css" />
@@ -474,10 +261,11 @@
         <option value="$PROJECT_DIR$/src/pages/ChildrenPhotography.jsx" />
         <option value="$PROJECT_DIR$/src/pages/IndustrialPhotography.jsx" />
         <option value="$PROJECT_DIR$/src/pages/ClothingPhotography.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/pngPhotography.jsx" />
-        <option value="$PROJECT_DIR$/src/pages/LocationPhotography.jsx" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/pages/LocationPhotography.jsx" />
+        <option value="$PROJECT_DIR$/src/pages/pngPhotography.jsx" />
         <option value="$PROJECT_DIR$/src/components/Gallery.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Jumbotron.css" />
       </list>
     </option>
   </component>
@@ -587,18 +375,17 @@
       <workItem from="1536945204100" duration="5240000" />
       <workItem from="1537040318785" duration="30000" />
       <workItem from="1537633258560" duration="626000" />
-      <workItem from="1537786669893" duration="4119000" />
+      <workItem from="1537786669893" duration="6989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30631000" />
+    <option name="totallyTimeSpent" value="33501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19233312" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19233312" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -611,7 +398,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -686,13 +473,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Home.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Gallery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/LifeStylePhotography.jsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -799,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Jumbotron.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -862,23 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/pngPhotography.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="54" selection-end-line="84" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/LocationPhotography.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -889,10 +645,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/pngPhotography.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/LocationPhotography.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="50" column="130" lean-forward="true" selection-start-line="50" selection-start-column="130" selection-end-line="50" selection-end-column="130" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Gallery.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+        <state relative-caret-position="2839">
+          <caret line="175" column="30" lean-forward="true" selection-start-line="175" selection-start-column="30" selection-end-line="175" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Gallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Jumbotron.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

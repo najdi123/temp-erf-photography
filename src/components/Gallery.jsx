@@ -78,21 +78,21 @@ class Gallery extends Component {
                         <p >Children Photography Album</p>
                     </div>
                 </Fade>
-                <Fade right>
-                    <div className="col-sm-12 col-md-6 col-lg-4 pax">
-                        <Link to="/Photography/DecorativeProducts">
-                            <div className="img__wrap thumbnail">
-                                <img className="img__img" src={p20} alt="" />
-                                <div className="img__description">
-                                    <div className="m-center">
-                                        <h5>This album contains photos of products such as perfumes, make up, jewlery, sofas, handbags and shoes</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </Link>
-                        <p >Decorative products Photography Album</p>
-                    </div>
-                </Fade>
+                {/*<Fade right>*/}
+                    {/*<div className="col-sm-12 col-md-6 col-lg-4 pax">*/}
+                        {/*<Link to="/Photography/DecorativeProducts">*/}
+                            {/*<div className="img__wrap thumbnail">*/}
+                                {/*<img className="img__img" src={p20} alt="" />*/}
+                                {/*<div className="img__description">*/}
+                                    {/*<div className="m-center">*/}
+                                        {/*<h5>This album contains photos of products such as perfumes, make up, jewlery, sofas, handbags and shoes</h5>*/}
+                                    {/*</div>*/}
+                                {/*</div>*/}
+                            {/*</div>*/}
+                        {/*</Link>*/}
+                        {/*<p >Decorative products Photography Album</p>*/}
+                    {/*</div>*/}
+                {/*</Fade>*/}
                 <Fade bottom>
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
                         <Link to="/Photography/CarPhotography">
@@ -138,19 +138,19 @@ class Gallery extends Component {
                         <p >Industrial Photography</p>
                     </div>
                 </Fade>
-                <Fade bottom>
-                    <div className="col-sm-12 col-md-6 col-lg-4 pax">
-                        <div className="img__wrap thumbnail">
-                            <img className="img__img" src={p15} alt="" />
-                            <div className="img__description">
-                                <div className="m-center">
-                                    <h4>This album contains interior, exterior photos of restaurant spaces and atmosphere </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <p >Restaurant space Photography </p>
-                    </div>
-                </Fade>
+                {/*<Fade bottom>*/}
+                    {/*<div className="col-sm-12 col-md-6 col-lg-4 pax">*/}
+                        {/*<div className="img__wrap thumbnail">*/}
+                            {/*<img className="img__img" src={p15} alt="" />*/}
+                            {/*<div className="img__description">*/}
+                                {/*<div className="m-center">*/}
+                                    {/*<h4>This album contains interior, exterior photos of restaurant spaces and atmosphere </h4>*/}
+                                {/*</div>*/}
+                            {/*</div>*/}
+                        {/*</div>*/}
+                        {/*<p >Restaurant space Photography </p>*/}
+                    {/*</div>*/}
+                {/*</Fade>*/}
                 <Fade left>
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
                         <div className="img__wrap thumbnail">
@@ -174,7 +174,7 @@ class Gallery extends Component {
                                 </div>
                             </div>
                         </div>
-                        <p >Clothing/Modeling indoor Photography Album</p>
+                        <p >Famous faces Photography Album</p>
                     </div>
                 </Fade>
                 <Fade bottom>
@@ -205,7 +205,7 @@ class Gallery extends Component {
                             </div>
                         </Link>
 
-                        <p >Clothing/Modeling outdoor Photography Album</p>
+                        <p >Clothing/Modeling Photography Album</p>
                     </div>
                 </Fade>
             </div>
