@@ -11,6 +11,8 @@ import ChildrenPhotos from './pages/ChildrenPhotography.jsx';
 import DecorativePhotos from './pages/DecorativeProducts.jsx';
 import CarPhotos from './pages/CarPhotography.jsx';
 import Clothing from './pages/ClothingPhotography.jsx';
+import PNG from './pages/pngPhotography.jsx';
+import LocationPhotography from './pages/LocationPhotography.jsx';
 import IndustrialPhoto from './pages/IndustrialPhotography.jsx';
 
 
@@ -29,6 +31,8 @@ class App extends Component {
                     <Route exact path="/Photography/DecorativeProducts" component={DecorativePhotos}/>
                     <Route exact path="/Photography/CarPhotography" component={CarPhotos}/>
                     <Route exact path="/Photography/ClothingPhotography" component={Clothing}/>
+                    <Route exact path="/Photography/pngPhotography" component={PNG}/>
+                    <Route exact path="/Photography/LocationPhotography" component={LocationPhotography}/>
                     <Route exact path="/Photography/IndustrialPhotography" component={IndustrialPhoto}/>
 
                 </div>
