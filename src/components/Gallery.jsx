@@ -153,27 +153,31 @@ class Gallery extends Component {
                 {/*</Fade>*/}
                 <Fade left>
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
-                        <div className="img__wrap thumbnail">
-                            <img className="img__img" src={p18} alt="" />
-                            <div className="img__description">
-                                <div className="m-center">
-                                    Content goes here
+                        <Link to="/Photography/AerialPhotography">
+                            <div className="img__wrap thumbnail">
+                                <img className="img__img" src={p18} alt="" />
+                                <div className="img__description">
+                                    <div className="m-center">
+                                        Content goes here
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                         <p >Aerial Photography and Filming</p>
                     </div>
                 </Fade>
                 <Fade right>
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
-                        <div className="img__wrap thumbnail">
-                            <img className="img__img" src={p17} alt="" />
-                            <div className="img__description">
-                                <div className="m-center">
-                                    <h5>This album includes photos of out-door modeling, clothing and accesories</h5>
+                        <Link to="/Photography/FamousFaces">
+                            <div className="img__wrap thumbnail">
+                                <img className="img__img" src={p17} alt="" />
+                                <div className="img__description">
+                                    <div className="m-center">
+                                        <h5>This album includes photos of out-door modeling, clothing and accesories</h5>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                         <p >Famous faces Photography Album</p>
                     </div>
                 </Fade>

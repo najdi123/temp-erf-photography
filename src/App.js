@@ -14,6 +14,8 @@ import Clothing from './pages/ClothingPhotography.jsx';
 import PNG from './pages/pngPhotography.jsx';
 import LocationPhotography from './pages/LocationPhotography.jsx';
 import IndustrialPhoto from './pages/IndustrialPhotography.jsx';
+import Aerial from './pages/AerialPhotography';
+import Famous from './pages/FamousFaces';
 
 
 class App extends Component {
@@ -34,6 +36,8 @@ class App extends Component {
                     <Route exact path="/Photography/pngPhotography" component={PNG}/>
                     <Route exact path="/Photography/LocationPhotography" component={LocationPhotography}/>
                     <Route exact path="/Photography/IndustrialPhotography" component={IndustrialPhoto}/>
+                    <Route exact path="/Photography/AerialPhotography" component={Aerial}/>
+                    <Route exact path="/Photography/FamousFaces" component={Famous}/>
 
                 </div>
             </Router>
