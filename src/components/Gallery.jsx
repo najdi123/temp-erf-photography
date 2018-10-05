@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link, Route} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import Fade from "react-reveal/Fade";
 import './Gallery.css'
 
@@ -15,13 +15,13 @@ import p9 from "../images/PhotographyImages/pic (9).jpg";
 import p11 from "../images/PhotographyImages/Industrial/020.jpg";
 
 import p13 from "../images/PhotographyImages/pic (13).jpg";
-import p15 from "../images/PhotographyImages/Food/pic-(25).jpg";
+// import p15 from "../images/PhotographyImages/Food/pic-(25).jpg";
 
 import p17 from "../images/PhotographyImages/pic (14).jpg";
 import p18 from "../images/PhotographyImages/pic (15).jpg";
 import p19 from "../images/PhotographyImages/pic (16).jpg";
-import p20 from "../images/PhotographyImages/pic (17).jpg";
-import Clothing from "../pages/ClothingPhotography";
+// import p20 from "../images/PhotographyImages/pic (17).jpg";
+// import Clothing from "../pages/ClothingPhotography";
 
 
 class Gallery extends Component {
