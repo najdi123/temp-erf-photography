@@ -8,12 +8,6 @@
 
 }
 
-.container {
-    text-align: center;
-
-
-    /*left: 20%;*/
-}
 
 .navbar-brand {
     color: #333;
@@ -53,6 +47,13 @@ a {
 }
 .active {
     color: rgb(0, 240, 220)!important;
+}
+.home {
+    text-transform: none;
+    text-decoration: none;
+}
+.home:hover{
+    color: rgb(0, 240, 220) !important;
 }
 
 

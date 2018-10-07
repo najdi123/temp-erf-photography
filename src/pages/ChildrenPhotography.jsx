@@ -2,6 +2,7 @@ import Lightbox from 'react-image-lightbox';
 import React from 'react';
 import './LightBox.css';
 
+import Navbar2 from '../components/Navbar';
 
 import {Link} from "react-router-dom";
 
@@ -58,13 +59,21 @@ class IndiLightbox extends React.Component{
         const { photoIndex, isOpen } = this.state;
 
         return (
-            <div className="container">
+            <div >
 
-                <div className="container" >
-                    <nav className="navbar navbar-expand navbar-light bg-light">
-                        <div className="collapse navbar-collapse flex-row ml-auto" id="navbarText">
+                <div >
+                    <nav className="navbar navbar-expand-sm navbar-light bg-light mb-4">
+                        <div className="container">
 
-                            <ul className="navbar-nav mr-auto">
+                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
+                                <span className="navbar-toggler-icon"></span>
+                            </button>
+                            <button>
+                                <Link to="/" className="home" >Home</Link>
+                            </button>
+
+                            <div className="collapse navbar-collapse" id="mobile-nav">
+                                <ul className="navbar-nav mr-auto">
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/Photography/LifeStylePhotography">
                                         Lifestyle
@@ -119,6 +128,7 @@ class IndiLightbox extends React.Component{
                             </ul>
 
 
+                        </div>
                         </div>
                     </nav>
                 </div>

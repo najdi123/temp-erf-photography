@@ -61,12 +61,21 @@ class IndiLightbox extends React.Component{
         const { photoIndex, isOpen } = this.state;
 
         return (
-            <div>
+            <div >
 
-                <div className="container">
-                    <nav className="navbar navbar-expand navbar-light bg-light container">
-                        <div className="collapse navbar-collapse " id="navbarText">
-                            <ul className="navbar-nav mr-auto">
+                <div >
+                    <nav className="navbar navbar-expand-sm navbar-light bg-light mb-4">
+                        <div className="container">
+
+                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
+                                <span className="navbar-toggler-icon"></span>
+                            </button>
+                            <button>
+                                <Link to="/" className="home" >Home</Link>
+                            </button>
+
+                            <div className="collapse navbar-collapse" id="mobile-nav">
+                                <ul className="navbar-nav mr-auto">
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/Photography/LifeStylePhotography">
                                         Lifestyle
@@ -119,6 +128,7 @@ class IndiLightbox extends React.Component{
                                 </li>
                             </ul>
 
+                        </div>
                         </div>
                     </nav>
                 </div>
