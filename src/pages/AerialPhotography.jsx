@@ -3,6 +3,10 @@ import React from 'react';
 import './LightBox.css';
 import 'react-image-lightbox/style.css';
 
+import { Link } from 'react-router-dom';
+import Fade from 'react-reveal'
+import './Navbar.css';
+
 
 import pic1 from "../images/PhotographyImages/Aerial/01.jpg";
 import pic2 from "../images/PhotographyImages/Aerial/02.jpg";
@@ -34,6 +38,65 @@ class IndiLightbox extends React.Component{
 
         return (
             <div>
+                <div className="container">
+                <nav className="navbar navbar-expand navbar-light bg-light container">
+                    <div className="collapse navbar-collapse " id="navbarText">
+                        <ul className="navbar-nav mr-auto">
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/Photography/LifeStylePhotography">
+                                    Lifestyle
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/Photography/FoodPhotography">
+                                    Food
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/Photography/ChildrenPhotography">
+                                    Children
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/Photography/CarPhotography">
+                                    Car
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/Photography/pngPhotography">
+                                    png
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/Photography/IndustrialPhotography">
+                                    Industrial
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link active" to="/Photography/AerialPhotography">
+                                    Aerial
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/Photography/FamousFaces">
+                                    Famous Faces
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/Photography/LocationPhotography">
+                                    Location
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/Photography/ClothingPhotography">
+                                    Clothing
+                                </Link>
+                            </li>
+                        </ul>
+
+                    </div>
+                </nav>
+                </div>
 
 
                 {!isOpen &&
@@ -77,5 +140,6 @@ class IndiLightbox extends React.Component{
         );
     }
 }
+
 
 export default IndiLightbox;

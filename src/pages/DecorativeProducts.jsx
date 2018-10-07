@@ -49,6 +49,7 @@ class IndiLightbox extends React.Component{
             <div>
 
 
+
                 {!isOpen &&
                 <div className="image-display">
 

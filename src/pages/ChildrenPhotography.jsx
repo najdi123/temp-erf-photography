@@ -3,6 +3,8 @@ import React from 'react';
 import './LightBox.css';
 
 
+import {Link} from "react-router-dom";
+
 import pic1 from "../images/PhotographyImages/Children/pic-(1).jpg";
 import pic2 from "../images/PhotographyImages/Children/pic-(2).jpg";
 import pic3 from "../images/PhotographyImages/Children/pic-(3).jpg";
@@ -26,6 +28,7 @@ import pic19 from "../images/PhotographyImages/Children/pic-(19).jpg";
 import pic21 from "../images/PhotographyImages/Children/pic-(21).jpg";
 import pic22 from "../images/PhotographyImages/Children/pic-(22).jpg";
 import pic23 from "../images/PhotographyImages/Children/pic-(23).jpg";
+
 
 
 
@@ -55,7 +58,75 @@ class IndiLightbox extends React.Component{
         const { photoIndex, isOpen } = this.state;
 
         return (
-            <div>
+            <div className="container">
+
+                <div className="container" >
+                    <nav className="navbar navbar-expand navbar-light bg-light">
+                        <div className="collapse navbar-collapse flex-row ml-auto" id="navbarText">
+
+                            <ul className="navbar-nav mr-auto">
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/LifeStylePhotography">
+                                        Lifestyle
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/FoodPhotography">
+                                        Food
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link active" to="/Photography/ChildrenPhotography">
+                                        Children
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/CarPhotography">
+                                        Car
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/pngPhotography">
+                                        png
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/IndustrialPhotography">
+                                        Industrial
+                                    </Link>
+                                </li>
+                                <br/>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/AerialPhotography">
+                                        Aerial
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/FamousFaces">
+                                        Famous Faces
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/LocationPhotography">
+                                        Location
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/ClothingPhotography">
+                                        Clothing
+                                    </Link>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                    </nav>
+                </div>
+
+
+
+
+
 
 
                 {!isOpen &&

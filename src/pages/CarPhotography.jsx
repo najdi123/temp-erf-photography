@@ -10,6 +10,7 @@ import pic3 from "../images/PhotographyImages/car/004.jpg";
 import pic4 from "../images/PhotographyImages/car/005.jpg";
 import pic5 from "../images/PhotographyImages/car/006.jpg";
 import pic6 from "../images/PhotographyImages/car/007.jpg";
+import {Link} from "react-router-dom";
 // import pic7 from "../images/PhotographyImages/car/010.jpg";
 // import pic8 from "../images/PhotographyImages/car/011.jpg";
 // import pic9 from "../images/PhotographyImages/car/12.jpg";
@@ -47,6 +48,65 @@ class IndiLightbox extends React.Component{
 
         return (
             <div>
+                <div className="container">
+                    <nav className="navbar navbar-expand navbar-light bg-light container">
+                        <div className="collapse navbar-collapse " id="navbarText">
+                            <ul className="navbar-nav mr-auto">
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/LifeStylePhotography">
+                                        Lifestyle
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/FoodPhotography">
+                                        Food
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/ChildrenPhotography">
+                                        Children
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link active" to="/Photography/CarPhotography">
+                                        Car
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/pngPhotography">
+                                        png
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/IndustrialPhotography">
+                                        Industrial
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/AerialPhotography">
+                                        Aerial
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/FamousFaces">
+                                        Famous Faces
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/LocationPhotography">
+                                        Location
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/Photography/ClothingPhotography">
+                                        Clothing
+                                    </Link>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </nav>
+                </div>
 
 
                 {!isOpen &&
