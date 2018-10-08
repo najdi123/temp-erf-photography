@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-// import Footer from '../components/Footer.jsx';
+import Footer from '../components/Footer.jsx';
 import Navbar from '../components/Navbar.jsx';
 import pic from '../images/optimized-studio-wide-1500x630.jpg';
+import Fade from "react-reveal/Fade";
+import './Home.css';
 
 
 
@@ -10,18 +12,16 @@ class About extends Component {
         return (
             <div>
                 <Navbar />
-                <img src={pic} width="1500" height="630"  alt="Product photography photo studio"  style={{left: 0}} />
+                <img src={pic} width="1500" height="630"  alt="Product photography photo studio"  style={{left: 0}} className="about-pic" />
                 <div className="container">
-                    <h2 style={{textAlign: 'right'}}>درباره ما </h2>
-                    <p style={{textAlign: 'right'}}>
-                        کمپانی انسینو با تلاش 6 ساله در زمینه عرضه کفش‌های چرم دست دوز توانسته است، محصولی با کیفیت و قابل رقابت با محصولات خارجی متنوع را عرضه کند. محصولات این کمپانی طبق تکنولوژی کشور ایتالیا طراحی و عرضه شده‌اند، تا در هنگام استفاده احساس خوبی به مخاطب منتقل کنند.
-                        در طراحی و تولید کفش‌های چرم دست دوز انسینو، از بهترین مواد اولیه و جدیدترین مدل‌های روز دنیا استفاده شده است، تا مشتریان با سلایق متفاوت  بتوانند کفش چرم دست دوز مورد نظرشان را خریداری کنند و مورد استفاده قرار دهند.
-                        در طراحی این کفش‌های چرم دست دوز از بهترین چرم‌های موجود در بازار استفاده شده است. تا کیفیت محصولات عرضه شده از محصولات مشابه خارجی نیز  بهتر باشد.
-                        با خرید این کفش‌های چرم دست دوز ضمن حمایت از تولید داخلی، شما می‌توانید یک کفش مناسب و در خور تهیه کنید و مورد استفاده قرار دهید.
-                        با جستجو در بین محصولات متنوع این کمپانی می‌توانید از انواع کفش‌های چرم دست دوز، گرم کن، هودی، تیشرت و... دیدن نمایید.
-                    </p>
+                    <Fade left>
+                        <p className="about-erf">
+                            My name is Erfan Askari, a freelance Photographer and Branding Consultant based in Tehran. I have over 12 years of professional work with the Iran’s leading brands and have developed more than 20 brands while collaborating with some of the best design agencies around the globe.
+                            <br/>
+                        </p>
+                    </Fade>
                 </div>
-                {/*<Footer />*/}
+                <Footer />
             </div>
         );
     }

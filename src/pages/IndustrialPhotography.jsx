@@ -1,6 +1,7 @@
 import Lightbox from 'react-image-lightbox';
 import React from 'react';
 import './LightBox.css';
+import Navbar from '../components/Navbar';
 
 
 import pic1 from "../images/PhotographyImages/Industrial/01.JPG";
@@ -74,23 +75,27 @@ class IndiLightbox extends React.Component{
             <div >
 
                 <div >
+
                     <nav className="navbar navbar-expand-sm navbar-light bg-light mb-4">
                         <div className="container">
 
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
-                            <button>
-                                <Link to="/" className="home" >Home</Link>
-                            </button>
+
 
                             <div className="collapse navbar-collapse" id="mobile-nav">
                                 <ul className="navbar-nav mr-auto">
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/Photography/LifeStylePhotography">
-                                        Lifestyle
+                                    <Link to="/" className="home nav-link" >
+                                        Home
                                     </Link>
                                 </li>
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="/Photography/LifeStylePhotography">
+                                            Lifestyle
+                                        </Link>
+                                    </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/Photography/FoodPhotography">
                                         Food
@@ -139,9 +144,31 @@ class IndiLightbox extends React.Component{
                             </ul>
 
                         </div>
+
+                            <div className="collapse navbar-collapse " id="mobile-nav">
+                                <ul className="navbar-nav ml-auto">
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="/">
+                                            Home
+                                        </Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="/about">
+                                            About
+                                        </Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="/contact">
+                                            Contact
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </div>
+
                         </div>
                     </nav>
                 </div>
+
 
 
                 {!isOpen &&

@@ -46,9 +46,6 @@ class IndiLightbox extends React.Component{
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
-                            <button>
-                                <Link to="/" className="home" >Home</Link>
-                            </button>
 
                             <div className="collapse navbar-collapse" id="mobile-nav">
                                 <ul className="navbar-nav mr-auto">
@@ -103,6 +100,25 @@ class IndiLightbox extends React.Component{
                                 </Link>
                             </li>
                         </ul>
+                        </div>
+                            <div className="collapse navbar-collapse " id="mobile-nav">
+                                <ul className="navbar-nav ml-auto">
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="/">
+                                            Home
+                                        </Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="/about">
+                                            About
+                                        </Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="/contact">
+                                            Contact
+                                        </Link>
+                                    </li>
+                                </ul>
                             </div>
                     </div>
                 </nav>
