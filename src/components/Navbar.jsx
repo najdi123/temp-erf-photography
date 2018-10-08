@@ -14,7 +14,7 @@ class Navbar extends Component {
 
                     </Link>
                     <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mobile-nav">
-                        <span className="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon"> menu </span>
                     </button>
 
                     <div className="collapse navbar-collapse " id="mobile-nav">

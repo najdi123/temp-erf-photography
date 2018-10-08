@@ -105,27 +105,27 @@ class IndiLightbox extends React.Component{
                                 </li>
                             </ul>
 
-                        </div>
-
-                            <div className="collapse navbar-collapse " id="mobile-nav">
-                                <ul className="navbar-nav ml-auto">
-                                    <li className="nav-item">
+                                <ul className="navbar-nav ml-auto go-right">
+                                    <li className="nav-item go-right">
                                         <Link className="nav-link" to="/">
                                             Home
                                         </Link>
                                     </li>
-                                    <li className="nav-item">
+                                    <li className="nav-item go-right">
                                         <Link className="nav-link" to="/about">
                                             About
                                         </Link>
                                     </li>
-                                    <li className="nav-item">
+                                    <li className="nav-item go-right">
                                         <Link className="nav-link" to="/contact">
                                             Contact
                                         </Link>
                                     </li>
                                 </ul>
-                            </div>
+
+                        </div>
+
+
 
                         </div>
                     </nav>
