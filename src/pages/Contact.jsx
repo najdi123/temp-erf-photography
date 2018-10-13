@@ -12,7 +12,7 @@ class About extends Component {
         return (
             <div>
                 <Navbar />
-                <img src={pic} width="1500" height="630"  alt="Product photography photo studio"  style={{left: 0}} className="about-pic" />
+                <img src={pic}  alt="Product photography photo studio"   className="about-pic" />
                 <div className="container contact">
                     <Fade right>
                         <h2>0912 358 35 62</h2>
