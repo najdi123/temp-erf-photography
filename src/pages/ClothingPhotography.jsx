@@ -67,6 +67,7 @@ class IndiLightbox extends React.Component{
                     <nav className="navbar navbar-expand-sm navbar-light bg-light mb-4">
                         <div className="container">
 
+
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
