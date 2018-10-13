@@ -54,8 +54,11 @@ a {
     /*float: right;*/
 /*}*/
 .ml-auto {
-    margin-right: 10% !important;
+    margin-right: 1% !important;
 }
 .go-right {
     margin-right: 1% !important;
+}
+.lefto{
+    margin-left: 1% !important;
 }
