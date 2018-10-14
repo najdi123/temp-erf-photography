@@ -131,6 +131,9 @@ class IndiLightbox extends React.Component{
                                         Clothing
                                     </Link>
                                 </li>
+                                    <li className="hr">
+
+                                    </li>
                             </ul>
 
                                 <ul className="navbar-nav ml-auto go-right">
