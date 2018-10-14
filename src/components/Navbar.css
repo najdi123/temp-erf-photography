@@ -42,7 +42,7 @@ a {
     color: rgb(0, 240, 220);
 }
 .sticky {
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     /*z-index: 100;*/
