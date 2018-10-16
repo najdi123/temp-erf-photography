@@ -17,6 +17,13 @@ import IndustrialPhoto from './pages/IndustrialPhotography.jsx';
 import Aerial from './pages/AerialPhotography';
 import Famous from './pages/FamousFaces';
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGhost } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook } from '@fortawesome/fontawesome-free-brands';
+
+library.add(faGhost, faFacebook);
+
 
 class App extends Component {
     render() {
