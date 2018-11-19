@@ -28,6 +28,7 @@ a {
     line-height: 25px;
     letter-spacing: 2px;
     text-transform: none;
+    /*margin-left: 1em !important;*/
 }
 .header2{
     color: rgb(0, 240, 220);

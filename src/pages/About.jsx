@@ -6,8 +6,6 @@ import Fade from "react-reveal/Fade";
 import './Home.css';
 import {Link} from "react-router-dom";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook } from '@fortawesome/fontawesome-free-brands';
 
 
 
@@ -23,9 +21,9 @@ class About extends Component {
                             My name is Erfan Askari, a freelance Photographer and Branding Consultant based in Tehran. I have over 12 years of professional work with the Iran’s leading brands and have developed more than 20 brands while collaborating with some of the best design agencies around the globe.
                             <br/>
 
-                            <i href="https://www.facebook.com/erfan.photography" className="fab fa-facebook ml-auto" ></i>
-                            <i className="fab fa-instagram ml-auto"></i>
-                            <i className="fab fa-twitter ml-auto"></i>
+                            {/*<i href="https://www.facebook.com/erfan.photography" className="fab fa-facebook ml-auto" ></i>*/}
+                            {/*<i className="fab fa-instagram ml-auto"></i>*/}
+                            {/*<i className="fab fa-twitter ml-auto"></i>*/}
                         </p>
                     </Fade>
                 </div>

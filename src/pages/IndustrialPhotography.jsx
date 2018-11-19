@@ -12,7 +12,7 @@ import pic5 from "../images/PhotographyImages/Industrial/05.jpg";
 import pic6 from "../images/PhotographyImages/Industrial/06.jpg";
 import pic7 from "../images/PhotographyImages/Industrial/07.jpg";
 import pic8 from "../images/PhotographyImages/Industrial/08.jpg";
-import pic9 from "../images/PhotographyImages/Industrial/09.jpg";
+import pic9 from "../images/PhotographyImages/Industrial/09.JPG";
 import pic10 from "../images/PhotographyImages/Industrial/010.jpg";
 import pic11 from "../images/PhotographyImages/Industrial/011.jpg";
 import pic12 from "../images/PhotographyImages/Industrial/012.jpg";
