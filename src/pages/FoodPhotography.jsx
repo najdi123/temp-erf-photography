@@ -163,7 +163,7 @@ class IndiLightbox extends React.Component{
 
 
                 {!isOpen &&
-                <div>
+                <div className="image-display">
                     <img src={pic1} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:0 })} />
                     <img src={pic2} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:1 })} />
                     <img src={pic3} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:2 })} />

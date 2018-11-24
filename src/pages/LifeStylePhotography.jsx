@@ -41,7 +41,7 @@ class IndiLightbox extends React.Component{
         const { photoIndex, isOpen } = this.state;
 
         return (
-            <div >
+            <div className="wide"  >
 
                 <div >
                     <nav className="navbar navbar-expand-sm navbar-light bg-light mb-4">
@@ -136,7 +136,7 @@ class IndiLightbox extends React.Component{
 
 
                 {!isOpen &&
-                <div className="image-display">
+                <div className="image-display ">
 
                     <img src={pic1} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:0 })} />
                     <img src={pic2} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:1 })} />
