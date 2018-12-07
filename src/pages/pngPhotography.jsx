@@ -18,7 +18,6 @@ import pic10 from "../images/PhotographyImages/pngPhotos/010.jpg";
 import pic11 from "../images/PhotographyImages/pngPhotos/011.jpg";
 import pic12 from "../images/PhotographyImages/pngPhotos/012.jpg";
 import pic13 from "../images/PhotographyImages/pngPhotos/013.jpg";
-import pic14 from "../images/PhotographyImages/pngPhotos/014.jpg";
 
 
 
@@ -26,7 +25,8 @@ import pic14 from "../images/PhotographyImages/pngPhotos/014.jpg";
 
 
 
-const images = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic14];
+
+const images = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12, pic13];
 
 
 class IndiLightbox extends React.Component{
@@ -155,7 +155,7 @@ class IndiLightbox extends React.Component{
                     <img src={pic11} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:10 })} />
                     <img src={pic12} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:11 })} />
                     <img src={pic13} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:12 })} />
-                    <img src={pic14} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:13 })} />
+
 
 
 

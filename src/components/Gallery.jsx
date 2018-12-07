@@ -34,7 +34,7 @@ class Gallery extends Component {
                         <Link to="/Photography/FoodPhotography">
                             <div className="img__wrap thumbnail">
 
-                                <img className="img__img" src={p13} alt="" />
+                                <img className="img__img" src={p13} alt="آلبوم عکس غذا و رستوران" />
 
                                 <div className="img__description">
                                     <div className="m-center">
@@ -53,7 +53,7 @@ class Gallery extends Component {
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
                         <Link to="/Photography/ClothingPhotography">
                             <div className="img__wrap thumbnail">
-                                <img className="img__img" src={p7} alt="" />
+                                <img className="img__img" src={p7} alt="آلبوم عکس لباس و مدلینگ" />
                                 <div className="img__description">
                                     <div className="m-center">
                                         <h5>This album includes photos of out-door modeling, clothing and accessories</h5>
@@ -70,7 +70,7 @@ class Gallery extends Component {
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
                         <Link to="/Photography/FamousFaces">
                             <div className="img__wrap thumbnail">
-                                <img className="img__img" src={p17} alt="" />
+                                <img className="img__img" src={p17} alt="آلبوم عکس از شخصیتهای معروف مثل بازیگران سینمایی و بازیکنان فوتبال و خواننده" />
                                 <div className="img__description">
                                     <div className="m-center">
                                         <h5>This album contains photos of known and famous characters such as actors and actresses, singers and football players</h5>
@@ -101,7 +101,7 @@ class Gallery extends Component {
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
                         <Link to="/Photography/ChildrenPhotography">
                             <div className="img__wrap thumbnail">
-                                <img className="img__img" src={p3} alt="" />
+                                <img className="img__img" src={p3} alt="آلبوم عکس از کودکان و نوجوانان" />
                                 <div className="img__description">
                                     <div className="m-center">
                                         <h5>This album includes photos of children and youth </h5>
@@ -119,10 +119,10 @@ class Gallery extends Component {
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
                         <Link to="/Photography/pngPhotography">
                             <div className="img__wrap thumbnail">
-                                <img className="img__img" src={p19} alt="" />
+                                <img className="img__img" src={p19} alt="آلبوم عکس از محصولات صنعتی با پس زمینه سفید مناسب برای کاتالگ و وبسایت" />
                                 <div className="img__description">
                                     <div className="m-center">
-                                        <h4>This album contains sharp images of products without background or with white background, suitable for web and catalog uses </h4>
+                                        <h4>This album contains sharp images of products with white background, suitable for web and catalog usage </h4>
                                     </div>
                                 </div>
                             </div>
