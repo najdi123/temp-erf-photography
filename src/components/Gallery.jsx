@@ -8,13 +8,14 @@ import p3 from "../images/PhotographyImages/Children/pic-(1).jpg";
 import p4 from "../images/PhotographyImages/car/003.jpg";
 
 import p6 from "../images/PhotographyImages/Location/pic  (5).jpg";
-import p7 from "../images/PhotographyImages/Clothing/01.jpg";
+import p7 from "../images/PhotographyImages/Clothing/06.jpg";
 
 import p9 from "../images/PhotographyImages/pic (9).jpg";
 
-import p11 from "../images/PhotographyImages/Industrial/020.jpg";
+import p11 from "../images/PhotographyImages/Industrial/02.jpg";
 
-import p13 from "../images/PhotographyImages/pic (13).jpg";
+import p13 from "../images/PhotographyImages/Food/pic-(32).jpg";
+
 // import p15 from "../images/PhotographyImages/Food/pic-(25).jpg";
 
 import p17 from "../images/PhotographyImages/pic (14).jpg";
@@ -50,34 +51,37 @@ class Gallery extends Component {
 
                 <Fade bottom>
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
-                        <Link to="/Photography/LifeStylePhotography">
+                        <Link to="/Photography/ClothingPhotography">
                             <div className="img__wrap thumbnail">
-                                <img className="img__img" src={p9} alt="" />
+                                <img className="img__img" src={p7} alt="" />
                                 <div className="img__description">
                                     <div className="m-center">
-                                        <h5>This album contains photos of people in different situations such as events or sports</h5>
+                                        <h5>This album includes photos of out-door modeling, clothing and accessories</h5>
                                     </div>
                                 </div>
                             </div>
                         </Link>
-                        <p >Lifestyle Photography Album</p>
+
+                        <p >Clothing/Modeling Photography Album</p>
                     </div>
                 </Fade>
-                <Fade left>
+
+                <Fade right>
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
-                        <Link to="/Photography/ChildrenPhotography">
+                        <Link to="/Photography/FamousFaces">
                             <div className="img__wrap thumbnail">
-                                <img className="img__img" src={p3} alt="" />
+                                <img className="img__img" src={p17} alt="" />
                                 <div className="img__description">
                                     <div className="m-center">
-                                        <h5>This album includes photos of children and youth </h5>
+                                        <h5>This album contains photos of known and famous characters such as actors and actresses, singers and football players</h5>
                                     </div>
                                 </div>
                             </div>
                         </Link>
-                        <p >Children Photography Album</p>
+                        <p >Famous faces Photography Album</p>
                     </div>
                 </Fade>
+
                 {/*<Fade right>*/}
                     {/*<div className="col-sm-12 col-md-6 col-lg-4 pax">*/}
                         {/*<Link to="/Photography/DecorativeProducts">*/}
@@ -93,21 +97,24 @@ class Gallery extends Component {
                         {/*<p >Decorative products Photography Album</p>*/}
                     {/*</div>*/}
                 {/*</Fade>*/}
-                <Fade bottom>
+                <Fade left>
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
-                        <Link to="/Photography/CarPhotography">
+                        <Link to="/Photography/ChildrenPhotography">
                             <div className="img__wrap thumbnail">
-                                <img className="img__img" src={p4} alt="" />
+                                <img className="img__img" src={p3} alt="" />
                                 <div className="img__description">
                                     <div className="m-center">
-                                        <h4>This album contains still and moving photos of cars and other vehicles interior and exterior </h4>
+                                        <h5>This album includes photos of children and youth </h5>
                                     </div>
                                 </div>
                             </div>
                         </Link>
-                        <p >Vehicle Photography Album</p>
+                        <p >Children Photography Album</p>
                     </div>
                 </Fade>
+
+
+
                 <Fade left>
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
                         <Link to="/Photography/pngPhotography">
@@ -130,7 +137,7 @@ class Gallery extends Component {
                                 <img className="img__img" src={p11} alt="" />
                                 <div className="img__description">
                                     <div className="m-center">
-                                        Content goes here
+                                        <h5>This album contains photos of products such as perfumes, make up, jewlery, sofas, handbags and shoes</h5>
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +165,7 @@ class Gallery extends Component {
                                 <img className="img__img" src={p18} alt="" />
                                 <div className="img__description">
                                     <div className="m-center">
-                                        Content goes here
+                                        <h5>This album is pictures taken from quadcopters and drones from above</h5>
                                     </div>
                                 </div>
                             </div>
@@ -166,21 +173,7 @@ class Gallery extends Component {
                         <p >Aerial Photography and Filming</p>
                     </div>
                 </Fade>
-                <Fade right>
-                    <div className="col-sm-12 col-md-6 col-lg-4 pax">
-                        <Link to="/Photography/FamousFaces">
-                            <div className="img__wrap thumbnail">
-                                <img className="img__img" src={p17} alt="" />
-                                <div className="img__description">
-                                    <div className="m-center">
-                                        <h5>This album includes photos of out-door modeling, clothing and accesories</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </Link>
-                        <p >Famous faces Photography Album</p>
-                    </div>
-                </Fade>
+
                 <Fade bottom>
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
                         <Link to="/Photography/LocationPhotography">
@@ -196,23 +189,41 @@ class Gallery extends Component {
                         <p >Location Photography Album</p>
                     </div>
                 </Fade>
+
                 <Fade left>
                     <div className="col-sm-12 col-md-6 col-lg-4 pax">
-                        <Link to="/Photography/ClothingPhotography">
+                        <Link to="/Photography/LifeStylePhotography">
                             <div className="img__wrap thumbnail">
-                                <img className="img__img" src={p7} alt="" />
+                                <img className="img__img" src={p9} alt="" />
                                 <div className="img__description">
                                     <div className="m-center">
-                                        Content goes here
+                                        <h5>This album contains photos of people in different situations such as events or sports</h5>
                                     </div>
                                 </div>
                             </div>
                         </Link>
+                        <p >Lifestyle Photography Album</p>
+                    </div>
+                </Fade>
 
-                        <p >Clothing/Modeling Photography Album</p>
+                <Fade bottom>
+                    <div className="col-sm-12 col-md-6 col-lg-4 pax">
+                        <Link to="/Photography/CarPhotography">
+                            <div className="img__wrap thumbnail">
+                                <img className="img__img" src={p4} alt="" />
+                                <div className="img__description">
+                                    <div className="m-center">
+                                        <h4>This album contains still and moving photos of cars and other vehicles interior and exterior </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </Link>
+                        <p >Vehicle Photography Album</p>
                     </div>
                 </Fade>
             </div>
+
+
         );
     }
 }

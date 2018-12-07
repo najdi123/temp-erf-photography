@@ -1,5 +1,6 @@
 import Lightbox from 'react-image-lightbox';
 import React from 'react';
+import {Link} from "react-router-dom";
 import './LightBox.css';
 import 'react-image-lightbox/style.css';
 
@@ -22,14 +23,20 @@ import pic15 from "../images/PhotographyImages/Famous/pic (15).jpg";
 import pic16 from "../images/PhotographyImages/Famous/pic (16).jpg";
 import pic17 from "../images/PhotographyImages/Famous/pic (17).jpg";
 import pic18 from "../images/PhotographyImages/Famous/pic (18).jpg";
-import {Link} from "react-router-dom";
+import pic19 from "../images/PhotographyImages/Famous/pic (19).jpg";
+import pic20 from "../images/PhotographyImages/Famous/pic (20).jpg";
+import pic21 from "../images/PhotographyImages/Famous/pic (21).jpg";
+import pic22 from "../images/PhotographyImages/Famous/pic (22).jpg";
+import pic23 from "../images/PhotographyImages/Famous/pic (23).jpg";
+import pic24 from "../images/PhotographyImages/Famous/pic (24).jpg";
 
 
 
 
 
 
-const images = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic12, pic13, pic14, pic15, pic16, pic17, pic18];
+
+const images = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic18, pic19, pic20, pic21, pic22, pic23, pic24];
 
 
 class IndiLightbox extends React.Component{
@@ -162,6 +169,12 @@ class IndiLightbox extends React.Component{
                     <img src={pic16} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:15 })} />
                     <img src={pic17} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:16 })} />
                     <img src={pic18} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:17 })} />
+                    <img src={pic19} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:18 })} />
+                    <img src={pic20} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:19 })} />
+                    <img src={pic21} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:20 })} />
+                    <img src={pic22} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:21 })} />
+                    <img src={pic23} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:22 })} />
+                    <img src={pic24} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:23 })} />
 
 
 

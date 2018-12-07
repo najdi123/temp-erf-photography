@@ -1,6 +1,7 @@
-import Lightbox from 'react-image-lightbox';
 import React from 'react';
+import {Link} from "react-router-dom";
 import './LightBox.css';
+import Lightbox from 'react-image-lightbox';
 
 
 import pic1 from "../images/PhotographyImages/Clothing/01.jpg";
@@ -31,19 +32,21 @@ import pic25 from "../images/PhotographyImages/Clothing/025.jpg";
 import pic26 from "../images/PhotographyImages/Clothing/026.jpg";
 import pic27 from "../images/PhotographyImages/Clothing/027.jpg";
 import pic28 from "../images/PhotographyImages/Clothing/028.JPG";
-import {Link} from "react-router-dom";
+import pic29 from "../images/PhotographyImages/Clothing/029.jpg";
+import pic30 from "../images/PhotographyImages/Clothing/030.jpg";
+import pic31 from "../images/PhotographyImages/Clothing/031.jpg";
+import pic32 from "../images/PhotographyImages/Clothing/032.jpg";
+import pic33 from "../images/PhotographyImages/Clothing/033.jpg";
+import pic34 from "../images/PhotographyImages/Clothing/034.jpg";
+import pic35 from "../images/PhotographyImages/Clothing/035.jpg";
+import pic36 from "../images/PhotographyImages/Clothing/036.jpg";
 
 
 
 
 
-const images = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic18, pic19, pic20, pic21, pic22, pic23, pic24, pic25, pic26, pic27, pic28];
-//
-// const images = [
-//     '../images/01.jpg',
-//     '../images/02.jpg',
-//     '../images/03.jpg'
-// ];
+
+const images = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic18, pic19, pic20, pic21, pic22, pic23, pic24, pic25, pic26, pic27, pic28, pic29, pic30, pic31, pic32, pic33, pic34, pic35, pic36];
 
 class IndiLightbox extends React.Component{
 
@@ -187,6 +190,14 @@ class IndiLightbox extends React.Component{
                     <img src={pic26} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:25 })} />
                     <img src={pic27} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:26 })} />
                     <img src={pic28} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:27 })} />
+                    <img src={pic29} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:28 })} />
+                    <img src={pic30} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:29 })} />
+                    <img src={pic31} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:30 })} />
+                    <img src={pic32} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:31 })} />
+                    <img src={pic33} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:32 })} />
+                    <img src={pic34} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:33 })} />
+                    <img src={pic35} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:34 })} />
+                    <img src={pic36} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:35 })} />
 
 
 

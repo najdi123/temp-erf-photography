@@ -1,7 +1,8 @@
-import Lightbox from 'react-image-lightbox';
 import React from 'react';
+import {Link} from "react-router-dom";
 import './LightBox.css';
-import Navbar from '../components/Navbar';
+import Lightbox from 'react-image-lightbox';
+
 
 
 import pic1 from "../images/PhotographyImages/Industrial/01.JPG";
@@ -43,18 +44,26 @@ import pic36 from "../images/PhotographyImages/Industrial/036.jpg";
 import pic37 from "../images/PhotographyImages/Industrial/037.jpg";
 import pic38 from "../images/PhotographyImages/Industrial/038.jpg";
 import pic39 from "../images/PhotographyImages/Industrial/039.jpg";
-import {Link} from "react-router-dom";
+import pic40 from "../images/PhotographyImages/Industrial/040.jpg";
+import pic41 from "../images/PhotographyImages/Industrial/041.jpg";
+import pic42 from "../images/PhotographyImages/Industrial/042.jpg";
+import pic43 from "../images/PhotographyImages/Industrial/043.jpg";
+import pic44 from "../images/PhotographyImages/Industrial/044.jpg";
+import pic45 from "../images/PhotographyImages/Industrial/045.jpg";
+import pic46 from "../images/PhotographyImages/Industrial/046.jpg";
+import pic47 from "../images/PhotographyImages/Industrial/047.jpg";
+import pic48 from "../images/PhotographyImages/Industrial/048.jpg";
+import pic49 from "../images/PhotographyImages/Industrial/049.jpg";
+import pic50 from "../images/PhotographyImages/Industrial/050.jpg";
+import pic51 from "../images/PhotographyImages/Industrial/051.jpg";
+import pic52 from "../images/PhotographyImages/Industrial/052.jpg";
 
 
 
 
-const images = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic18, pic19, pic20, pic21, pic22, pic23, pic24, pic25, pic26, pic27, pic28, pic29, pic30, pic31, pic32, pic33, pic34, pic35, pic36, pic37, pic38, pic39];
-//
-// const images = [
-//     '../images/01.jpg',
-//     '../images/02.jpg',
-//     '../images/03.jpg'
-// ];
+
+const images = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic18, pic19, pic20, pic21, pic22, pic23, pic24, pic25, pic26, pic27, pic28, pic29, pic30, pic31, pic32, pic33, pic34, pic35, pic36, pic37, pic38, pic39, pic40, pic41, pic42, pic43, pic44, pic45, pic46, pic47, pic48, pic49, pic50, pic51, pic52,];
+
 
 class IndiLightbox extends React.Component{
 
@@ -86,11 +95,6 @@ class IndiLightbox extends React.Component{
 
                             <div className="collapse navbar-collapse" id="mobile-nav">
                                 <ul className="navbar-nav mr-auto">
-                                <li className="nav-item">
-                                    <Link to="/" className="home nav-link" >
-                                        Home
-                                    </Link>
-                                </li>
                                     <li className="nav-item">
                                         <Link className="nav-link" to="/Photography/LifeStylePhotography">
                                             Lifestyle
@@ -216,6 +220,19 @@ class IndiLightbox extends React.Component{
                     <img src={pic37} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:36 })} />
                     <img src={pic38} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:37 })} />
                     <img src={pic39} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:38 })} />
+                    <img src={pic40} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:39 })} />
+                    <img src={pic41} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:40 })} />
+                    <img src={pic42} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:41 })} />
+                    <img src={pic43} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:42 })} />
+                    <img src={pic44} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:43 })} />
+                    <img src={pic45} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:44 })} />
+                    <img src={pic46} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:35 })} />
+                    <img src={pic47} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:36 })} />
+                    <img src={pic48} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:37 })} />
+                    <img src={pic49} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:38 })} />
+                    <img src={pic50} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:39 })} />
+                    <img src={pic51} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:40 })} />
+                    <img src={pic52} className="thumbnail" alt=""  onClick={() => this.setState({ isOpen: true, photoIndex:41 })} />
 
 
 
